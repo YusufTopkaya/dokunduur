@@ -1,0 +1,22 @@
+{
+  "name": "dokunduur",
+  "short_name": "dokunduur",
+  "description": "dokunduur ile dijital tanıtımınızı kolaylaştırın. NFC yönlendirmeleri, Google yorumları, IBAN paylaşımı ve sosyal medya çözümleri.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#111827",
+  "lang": "tr",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "type": "image/svg+xml",
+      "sizes": "any"
+    },
+    {
+      "src": "/thumbnail.png",
+      "type": "image/png",
+      "sizes": "1200x630"
+    }
+  ]
+}

@@ -2,36 +2,123 @@
 <html lang="tr">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>dokunduur</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
+    <title>dokunduur | NFC Dijital Tanıtım ve Google Yorum Çözümleri</title>
     <meta
       name="description"
-      content="dokunduur — dijital tanıtımınızı kolaylaştıran yeni bir dokunuş. NFC yönlendirmeleri, IBAN paylaşımı ve sosyal medya çözümleri."
+      content="dokunduur ile dijital tanıtımınızı kolaylaştırın. NFC yönlendirmeleri, Google yorumları, IBAN paylaşımı ve sosyal medya çözümleri."
     />
+    <meta
+      name="keywords"
+      content="dokunduur, NFC, dijital tanıtım, Google yorumları, IBAN paylaşımı, sosyal medya linkleri, kartvizit, dijital kartvizit"
+    />
+    <meta name="author" content="dokunduur" />
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+    <meta name="theme-color" content="#111827" />
+
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="canonical" href="https://dokundoor.com/" />
+    <link rel="manifest" href="/manifest.json" />
+
+    <link rel="dns-prefetch" href="https://wa.me" />
+    <link rel="preconnect" href="https://wa.me" crossorigin />
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website" />
+    <meta property="og:locale" content="tr_TR" />
+    <meta property="og:site_name" content="dokunduur" />
     <meta property="og:url" content="https://dokundoor.com/" />
-    <meta property="og:title" content="dokunduur yakında burada" />
+    <meta property="og:title" content="dokunduur | NFC Dijital Tanıtım ve Google Yorum Çözümleri" />
     <meta
       property="og:description"
-      content="dokunduur — dijital tanıtımınızı kolaylaştıran yeni bir dokunuş. NFC yönlendirmeleri, IBAN paylaşımı ve sosyal medya çözümleri."
+      content="dokunduur ile dijital tanıtımınızı kolaylaştırın. NFC yönlendirmeleri, Google yorumları, IBAN paylaşımı ve sosyal medya çözümleri."
     />
     <meta property="og:image" content="https://dokundoor.com/thumbnail.png" />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="dokunduur marka görseli" />
 
-    <!-- Twitter -->
-    <meta property="twitter:card" content="summary_large_image" />
-    <meta property="twitter:url" content="https://dokundoor.com/" />
-    <meta property="twitter:title" content="dokunduur yakında burada" />
-    <meta
-      property="twitter:description"
-      content="dokunduur — dijital tanıtımınızı kolaylaştıran yeni bir dokunuş. NFC yönlendirmeleri, IBAN paylaşımı ve sosyal medya çözümleri."
-    />
-    <meta property="twitter:image" content="https://dokundoor.com/thumbnail.png" />
+    <!-- JSON-LD: WebSite -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "dokunduur",
+        "url": "https://dokundoor.com/",
+        "inLanguage": "tr",
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": "https://dokundoor.com/?q={search_term_string}",
+          "query-input": "required name=search_term_string"
+        }
+      }
+    </script>
+
+    <!-- JSON-LD: Organization -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "dokunduur",
+        "url": "https://dokundoor.com/",
+        "logo": "https://dokundoor.com/favicon.svg",
+        "sameAs": [
+          "https://wa.me/905061641991"
+        ],
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "contactType": "Müşteri Hizmetleri",
+          "url": "https://wa.me/905061641991?text=Merhaba"
+        }
+      }
+    </script>
+
+    <!-- JSON-LD: Service -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "serviceType": "NFC Dijital Tanıtım Çözümleri",
+        "provider": {
+          "@type": "Organization",
+          "name": "dokunduur",
+          "url": "https://dokundoor.com/"
+        },
+        "areaServed": "TR",
+        "hasOfferCatalog": {
+          "@type": "OfferCatalog",
+          "name": "dokunduur Hizmetleri",
+          "itemListElement": [
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Google Yorumları",
+                "description": "NFC etiketlerle müşterilerinizi tek dokunuşla Google yorum sayfanıza yönlendirin."
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "IBAN Paylaşımı",
+                "description": "Kartvizit veya etiket üzerinden IBAN bilginizi hızlı ve pratik şekilde paylaşın."
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Sosyal Medya Linkleri",
+                "description": "Tüm sosyal medya hesaplarınıza tek noktadan ulaşılabilir, akıllı yönlendirmeler oluşturun."
+              }
+            }
+          ]
+        }
+      }
+    </script>
   </head>
   <body>
     <div id="root"></div>
