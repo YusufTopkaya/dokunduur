@@ -3,5 +3,5 @@ Allow: /
 Disallow: /api/
 Disallow: /_next/
 
-Sitemap: https://dokundoor.com/sitemap.xml
-Host: https://dokundoor.com
+Sitemap: https://dokunduur.com/sitemap.xml
+Host: https://dokunduur.com

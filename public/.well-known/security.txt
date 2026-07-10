@@ -1,4 +1,4 @@
-Contact: mailto:security@dokundoor.com
+Contact: mailto:security@dokunduur.com
 Expires: 2027-07-10T00:00:00.000Z
 Preferred-Languages: tr, en
-Canonical: https://dokundoor.com/.well-known/security.txt
+Canonical: https://dokunduur.com/.well-known/security.txt
