@@ -1,3 +1,3 @@
-http://dokunduur.com/* https://dokunduur.com/:splat 301
-http://www.dokunduur.com/* https://dokunduur.com/:splat 301
-https://www.dokunduur.com/* https://dokunduur.com/:splat 301
+# www -> apex (non-www) yönlendirmesi
+# http -> https yönlendirmesi Cloudflare "Always Use HTTPS" ayarı ile sağlanır
+www.dokunduur.com/* /:splat 301
